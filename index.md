@@ -5,8 +5,6 @@ Published: January 15, 2020
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+      ### <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}
   {% endfor %}
 </ul>
