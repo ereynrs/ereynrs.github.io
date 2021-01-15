@@ -5,6 +5,8 @@ Published: January 15, 2020
 
 <ul>
   {% for post in site.posts %}
-      ### <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date }}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>. Published: {{ post.time | date_to_string: "ordinal", "US" }}
+    </li>
   {% endfor %}
 </ul>
