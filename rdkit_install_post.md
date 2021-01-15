@@ -3,7 +3,7 @@
 ## Step 1: 
 ### Installing Anaconda
 **Note:** Anaconda is not a requirement for RDKit installation , but it eases it a lot!
-* Install Anaconda from [here|https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe]
+* Install Anaconda from [here](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe)
 
 ## Step 2: 
 ### Installing RDKit
