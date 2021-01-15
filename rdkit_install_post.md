@@ -1,4 +1,7 @@
-# How to install RDKit on Windows 10
+---
+layout: post
+title: How to install RDKit on Windows 10
+---
 
 ## Step 1: 
 ### Installing Anaconda
