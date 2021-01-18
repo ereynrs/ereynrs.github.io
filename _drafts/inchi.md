@@ -13,20 +13,20 @@ In January 2009 the 1.02 version of the InChI software was released. This provid
 The current software version is 1.06 and was released in December 2020. Prior to 1.04, the software was freely available under the open-source LGPL license, but it now uses a custom license called IUPAC-InChI Trust License.
 
 ### Format
-Every InChI starts with the string ```InChI=``` followed by the version number, currently 1. If the InChI is standard, this is followed by the letter S for standard InChIs, which is a fully standardized InChI flavor maintaining the same level of attention to structure details and the same conventions for drawing perception. 
+Every InChI starts with the string ```InChI=``` followed by the version number, currently 1. If the InChI is standard, this is followed by the letter ```S``` for standard InChIs, which is a fully standardized InChI flavor maintaining the same level of attention to structure details and the same conventions for drawing perception. 
 
 The remaining information is structured as a sequence of layers and sub-layers, with each layer providing one specific type of information. The layers and sub-layers are separated by the delimiter ```/``` and start with a characteristic prefix letter (except for the chemical formula sub-layer of the main layer).
 
 ### InChIs vs CAS
 InChIs differ from the widely used CAS registry numbers in three respects:
-* 1. they are freely usable and non-proprietary,
-* 2. they can be computed from structural information and do not have to be assigned by some organization, and
-* 3. most of the information in an InChI is human readable.
+1. they are freely usable and non-proprietary,
+2. they can be computed from structural information and do not have to be assigned by some organization, and
+3. most of the information in an InChI is human readable.
 
 ### InChIs vs SMILES
 The InChIs
-* 1. can express more information than the simpler SMILES notation, and
-* 2. and differ from SMILES in that every structure has a unique InChI string, which is important in database applications.
+1. can express more information than the simpler SMILES notation, and
+2. and differ from SMILES in that every structure has a unique InChI string, which is important in database applications.
 
 ## InChI Keys
 The InChIKey, sometimes referred to as a hashed InChI, is a fixed length (27 character) condensed digital representation of the InChI that is not human-understandable. It is a hashed version of the full InChI (using the SHA-256 algorithm), and its [specification](https://web.archive.org/web/20071030202540/http://www.iupac.org/inchi/release102.html) was released in September 2007 in order to facilitate web searches for chemical compounds, since these were problematic with the full-length InChI. The full InChI turned out to be too lengthy for easy searching, and therefore the InChIKey was developed. 
