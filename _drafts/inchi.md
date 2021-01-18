@@ -41,7 +41,7 @@ The InChIKey consists of three parts separated by hyphens, of 14, 10 and one cha
 * a single character indicating the kind of InChIKey (```S``` for standard and ```N``` for nonstandard), and
 * a character indicating the version of InChI used (currently ```A``` for version 1). 
 
-### InChI Keys vs InChis
+### InChI Keys vs InChIs
 However, there is a very small, but nonzero chance of two different molecules having the same InChIKey. **Unlike the InChI, the InChIKey is not unique: though collisions can be calculated to be very rare, [they happen](http://chem-bla-ics.blogspot.nl/2011/09/inchikey-collision-diy-copypastables.html).**
 
 The probability for duplication of only the first 14 characters has been estimated as only one duplication in 75 databases each containing one billion unique structures. With all databases currently having below 50 million structures, such duplication appears unlikely at present. A recent [study](https://doi.org/10.1186%2F1758-2946-4-39) more extensively studies the collision rate finding that the experimental collision rate is in agreement with the theoretical expectations.
