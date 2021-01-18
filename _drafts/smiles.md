@@ -1,6 +1,7 @@
 # SMILES strings notes
 
 The *Simplified Molecular-Input Line-Entry System* (SMILES) is a specification in the form of a line notation for describing the structure of chemical species using short ASCII strings. SMILES strings can be imported by most molecule editors for conversion back into two-dimensional drawings or three-dimensional models of the molecules. 
+
 **Typically, a number of equally valid SMILES strings can be written for a molecule.** For example, CCO, OCC and C(O)C all specify the structure of ethanol. 
 
 The original SMILES specification was initiated in the 1980s. It has since been modified and extended. In 2007, an open standard called OpenSMILES was developed in the open-source chemistry community. There are also other linear notations. e.g, the Wiswesser line notation (WLN), ROSDAL, and SYBYL Line Notation (SLN).
@@ -9,6 +10,7 @@ The original SMILES specification was initiated in the 1980s. It has since been 
 
 ## Cannonicalization
 Algorithms have been developed to generate the same SMILES string for a given molecule; of the many possible strings, these algorithms choose only one of them. This SMILES is unique for each structure, *although dependent on the canonicalization algorithm used to generate it*, and is termed the canonical SMILES. 
+
 These algorithms first convert the SMILES to an internal representation of the molecular structure; an algorithm then examines that structure and produces a unique SMILES string. Various algorithms for generating canonical SMILES have been developed and include those by Daylight Chemical Information Systems, OpenEye Scientific Software, MEDIT, Chemical Computing Group, MolSoft LLC, and the Chemistry Development Kit. 
 A common application of canonical SMILES is indexing and ensuring uniqueness of molecules in a database.
 
