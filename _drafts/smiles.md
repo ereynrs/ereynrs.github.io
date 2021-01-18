@@ -17,4 +17,4 @@ The original paper that described the CANGEN[2] algorithm claimed to generate un
 ## Isomerization
 SMILES notation allows the specification of configuration at tetrahedral centers, and double bond geometry. These are structural features that cannot be specified by connectivity alone, and therefore SMILES which encode this information are termed isomeric SMILES. A notable feature of these rules is that they allow rigorous partial specification of chirality. The term isomeric SMILES is also applied to SMILES in which isomers are specified.
 
-*Source: [Wikipedia]*(https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)*
