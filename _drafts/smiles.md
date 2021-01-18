@@ -1,6 +1,6 @@
 # SMILES strings notes
 
-The *Simplified Molecular-Input Line-Entry System* (SMILES) is a specification in the form of a line notation for describing the structure of chemical species using short ASCII strings. SMILES strings can be imported by most molecule editors for conversion back into two-dimensional drawings or three-dimensional models of the molecules. 
+The *Simplified Molecular-Input Line-Entry System* (SMILES) is a *specification in the form of a line notation for describing the structure of chemical species using short ASCII strings*. SMILES strings can be imported by most molecule editors for conversion back into two-dimensional drawings or three-dimensional models of the molecules. 
 
 **Typically, a number of equally valid SMILES strings can be written for a molecule.** For example, CCO, OCC and C(O)C all specify the structure of ethanol. 
 
