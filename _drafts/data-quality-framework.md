@@ -23,6 +23,7 @@ From resource link number 2:
 ### Linking Substances to Targets from CTL, by joining Biomart & ChEMBL Data
 Overview:
 Biomart data depicts samples without ChEMBL codes for targets, even when those ChEMBL codes are available in the ChEMBL data source. This situation could be originated by out of sync release of the different data sources.
+
 *Note: Data with this lack of info account for less than 2% of the overall cases (almost 47k of more than 2.4M cases).*
 
 Query to retrieve examples of this issue:
@@ -55,6 +56,17 @@ Two semantics are possible:
 **But the "right" semantics can be only established by the domain experts. In consequence, to define a unified approach to tackle the NULL values cases is not an option.
 Instead, a domain-dependent approach is requiered.**
 
-### Resources
+#### Simplest strategy to tackle the issue: ad-hoc *(when)* detection *(what)* of knowledge gap *(where)*
+Then, the technical implementation should highlight the knowledge gap:
+* Option 1. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
+* Option 2. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
+** 2-A. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
+** 2-B. To create target entities represented by blank nodes.
+
+I don't like the Option 2-A because this approach mixes validation issues and domain modeling.
+Instead, the option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.
+
+
+## Resources
 1. https://www.stardog.com/platform/features/data-quality-shacl/
 2. https://www.stardog.com/blog/data-quality-with-icv/
