@@ -69,7 +69,7 @@ Then, the technical implementation should highlight the knowledge gap:
 
 ### Insights
 * **The Option 2-A mixes validation issues and domain modeling.**
-* **Instead, the option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
+* **Instead, the Option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
 
 ## Resources
 1. https://www.stardog.com/platform/features/data-quality-shacl/
