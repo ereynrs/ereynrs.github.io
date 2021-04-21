@@ -30,7 +30,7 @@ Biomart data depicts samples without ChEMBL codes for targets, even when those C
 
 *Note: Data with this lack of info account for less than 2% of the overall cases (almost 47k of more than 2.4M cases).*
 
-Query to retrieve examples of this issue:
+Running the following query against the *ctl_consum* database allows to retrieve samples of this issue:
 ```
 SELECT DISTINCT
 csifc.md_chembl_id as substance_chembl_id
@@ -46,7 +46,8 @@ AND beeu.organism = ca.organism
 WHERE beeu.chembl_id IS NULL
 ```
 
-Let's focus in one example:
+Let's focus in one sample:
+
 substance_chembl_id |	inchi_key |	target_chembl_id 
 ------------------- |-----------|-----------------
 CHEMBL4097563 | AAAAJHGLNDAXFP-VNKVACROSA-N | NULL
@@ -60,7 +61,10 @@ Two semantics are possible:
 **But the "right" semantics can be only established by the domain experts. In consequence, to define a unified approach to tackle the NULL values cases is not an option.
 Instead, a domain-dependent approach is requiered.**
 
-### Simplest strategy to tackle the issue: ad-hoc *(when)* detection *(what)* of knowledge gap *(where)*
+
+### STEP 1. DETECTION
+**Simplest strategy to tackle the issue: ad-hoc *(when)* detection *(what)* of knowledge gap *(where)*.**
+
 Then, the technical implementation should highlight the knowledge gap:
 * *Option 1*. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
 * *Option 2*. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
@@ -70,6 +74,33 @@ Then, the technical implementation should highlight the knowledge gap:
 ### Insights
 * **The Option 2-A mixes validation issues and domain modeling.**
 * **Instead, the Option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
+
+### STEP 2. ANALYSIS
+**Simplest strategy to adress the issue: ad-hoc *(when)* analysis *(what)* of knowledge gap *(where)**
+
+Running the following query against the *ctl_consum* database allows to retrieve more details of the sample before depicted:
+```
+SELECT DISTINCT
+beeu.ensembl_gene_id
+,beeu.entrez_gene_id
+,beeu.gene_name
+,beeu.organism
+,beeu.uniprotkb_swissprot_id
+FROM
+chembl_sample_info_from_ci csifc
+INNER JOIN chembl_assays ca ON
+ca.assay_id = csifc.assay_chembl_id
+INNER JOIN biomart_ens_entrez_uniprot beeu ON
+beeu.uniprotkb_swissprot_id = ca.uniprot_id
+AND beeu.organism = ca.organism
+WHERE csifc.md_chembl_id = 'CHEMBL4097563' and beeu.chembl_id is NULL
+```
+
+Results:
+ensembl_gene_id | entrez_gene_id | gene_name | organism | uniprotkb_swissprot_id
+--------------- | -------------- | --------- | -------- | ----------------------
+ENSG00000162711 | 114548 | NLRP3 | HOMO.SAPIENS | Q96P20
+
 
 ## Resources
 1. https://www.stardog.com/platform/features/data-quality-shacl/
