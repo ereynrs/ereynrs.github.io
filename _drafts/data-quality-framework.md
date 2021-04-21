@@ -102,7 +102,7 @@ ensembl_gene_id | entrez_gene_id | gene_name | organism | uniprotkb_swissprot_id
 ENSG00000162711 | 114548 | NLRP3 | HOMO.SAPIENS | Q96P20
 
 But reviewing the official ChEMBL data, the target seems to have a ChEMBL code assigned to it.
-[This page](https://www.ebi.ac.uk/chembl/g/#browse/targets/filter/_metadata.related_compounds.all_chembl_ids%3A(%22CHEMBL4097563%22)%20AND%20_metadata.protein_classification.l1%3A(%22Unclassified%20protein%22) depicts the targets for the compound under analysis (CHEMBL4097563), and the first of them (CHEMBL1741208) have the same values for the attributes depcited on the previous query's output, as can be seen [on this page](https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1741208/). 
+[This page](https://www.ebi.ac.uk/chembl/g/#browse/targets/filter/_metadata.related_compounds.all_chembl_ids%3A(%22CHEMBL4097563%22)%20AND%20_metadata.protein_classification.l1%3A(%22Unclassified%20protein%22)) depicts the targets for the compound under analysis (CHEMBL4097563), and the first of them (CHEMBL1741208) have the same values for the attributes depcited on the previous query's output, as can be seen [on this page](https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1741208/). 
 
 #### Analysis insights
 Same values on the *ensemble gene id*, *gene name*, *organism*, and *uniprot_swissprot_id* attributes suggest that the ChEMBL official data defines a ChEMBL code for the *NULL* target depicted in the *ctl_consum* database.
