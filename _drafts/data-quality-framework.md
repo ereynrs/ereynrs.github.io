@@ -21,7 +21,8 @@ From resource link number 2:
 
 ## Use cases
 ### Linking Substances to Targets from CTL, by joining Biomart & ChEMBL Data
-Overview:
+*Overview:*
+
 Biomart data depicts samples without ChEMBL codes for targets, even when those ChEMBL codes are available in the ChEMBL data source. This situation could be originated by out of sync release of the different data sources.
 
 *Note: Data with this lack of info account for less than 2% of the overall cases (almost 47k of more than 2.4M cases).*
@@ -60,8 +61,8 @@ Instead, a domain-dependent approach is requiered.**
 Then, the technical implementation should highlight the knowledge gap:
 * Option 1. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
 * Option 2. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
-** 2-A. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
-** 2-B. To create target entities represented by blank nodes.
+  * 2-A. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
+  * 2-B. To create target entities represented by blank nodes.
 
 ### Insights
 * **The Option 2-A mixes validation issues and domain modeling.**
