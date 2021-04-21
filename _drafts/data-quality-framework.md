@@ -76,7 +76,7 @@ Then, the technical implementation should highlight the knowledge gap:
 * **Instead, the Option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
 
 ### STEP 2. ANALYSIS
-**Simplest strategy to adress the issue: ad-hoc *(when)* analysis *(what)* of knowledge gap *(where)**
+**Simplest strategy to adress the issue: ad-hoc *(when)* analysis *(what)* of knowledge gap *(where)*.**
 
 Running the following query against the *ctl_consum* database allows to retrieve more details of the sample before depicted:
 ```
