@@ -63,10 +63,9 @@ Then, the technical implementation should highlight the knowledge gap:
 ** 2-A. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
 ** 2-B. To create target entities represented by blank nodes.
 
-**The Option 2-A because this approach mixes validation issues and domain modeling.**
-
-**Instead, the option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
-
+### Insights
+* **The Option 2-A mixes validation issues and domain modeling.**
+* **Instead, the option 2-B is aligned with the semantics of RDF blank nodes, and simultaneously, it allows to easily recognize suspicious entities.**
 
 ## Resources
 1. https://www.stardog.com/platform/features/data-quality-shacl/
