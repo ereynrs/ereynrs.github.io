@@ -13,14 +13,8 @@
 
 ## WHEN?
 **Two options**
-* *ad-hoc*
-* *guard mode*
-
-Guard mode seems to be the most appropiate one. From resource link number 2:
-
-> When should you use guard mode versus ad hoc validation?
-> If we’re building a Knowledge Graph over many systems, each of which owns its data entry interfaces, then we will run ICV asynchronously on our own auditing schedule.
-> For applications built to store data directly in the graph, guard mode helps move complex business logic from application software to declarative data in the Knowledge Graph.
+* *ad-hoc*: Manual or semi-automated inspection of the ingested data.
+* *guard mode*: Data quality assessment at ingestion time. It's ingested only data passing the predefined validations.
 
 ## Use cases
 ### Linking Substances to Targets from CTL, by joining Biomart & ChEMBL Data
