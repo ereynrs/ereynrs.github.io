@@ -1,19 +1,22 @@
 # Data Quality Framework
 
 ## WHAT? 
-Three Stages
-* Detection -> Is there a problem?
-* Analysis -> Is it possible to solve it?
-* Action -> How to solve it?
+**Three Stages**
+* *Detection* -> Is there a problem?
+* *Analysis* -> Is it possible to solve it?
+* *Action* -> How to solve it?
 
 ## WHERE?
-Two Levels
-* Technical level: In ODL. I.e.: verify pipelines, data types, etc.
-* Knowledge level: In KG. Is the data aligned with the SME's point of view?
+**Two Levels**
+* *Technical level*: In ODL. I.e.: verify pipelines, data types, etc.
+* *Knowledge level*: In KG. Is the data aligned with the SME's point of view?
 
 ## WHEN?
-Two options: a) ad-hoc, and b) guard mode. Guard mode seems to be the most appropiate one.
-From resource link number 2:
+**Two options**
+* *ad-hoc*
+* *guard mode*
+
+Guard mode seems to be the most appropiate one. From resource link number 2:
 
 > When should you use guard mode versus ad hoc validation?
 > If we’re building a Knowledge Graph over many systems, each of which owns its data entry interfaces, then we will run ICV asynchronously on our own auditing schedule.
@@ -59,10 +62,10 @@ Instead, a domain-dependent approach is requiered.**
 
 ### Simplest strategy to tackle the issue: ad-hoc *(when)* detection *(what)* of knowledge gap *(where)*
 Then, the technical implementation should highlight the knowledge gap:
-* Option 1. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
-* Option 2. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
-  * 2-A. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
-  * 2-B. To create target entities represented by blank nodes.
+* *Option 1*. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
+* *Option 2*. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
+  * *2-A*. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
+  * *2-B*. To create target entities represented by blank nodes.
 
 ### Insights
 * **The Option 2-A mixes validation issues and domain modeling.**
