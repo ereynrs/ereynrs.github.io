@@ -62,7 +62,7 @@ Instead, a domain-dependent approach is requiered.**
 Then, the technical implementation should highlight the knowledge gap:
 * *Option 1*. Not to ingest linkages between substances and targets. But it hides the issue under the rug instead of highlight it.
 * *Option 2*. Ingest the linkages. But ChEMBL code is used for minting the entity ID:
-  * *2-A*. To create entities with randomly generated IDs of a new *kind* of Targets: the *incomplete or suspicious* ones.
+  * *2-A*. To create entities of a new *kind* of Targets: the *incomplete or suspicious* ones.
   * *2-B*. To create target entities represented by blank nodes.
 
 #### Insights
