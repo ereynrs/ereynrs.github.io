@@ -80,23 +80,23 @@ Each MeSH Descriptor consists of one or more Concepts, and each Concept consists
 Each Concept has a Preferred Term, which is also said to be the name of the Concept. And each record has a Preferred Concept. The Descriptor name - the term most often used to refer to the Descriptor - is the Preferred Term of the preferred Concept. *Scope Notes* are properly attributed to Concepts, while the *Annotation* applies to the record level.
 
 Example:
->
-> Cardiomegaly [Descriptor]
-> 
->     Cardiomegaly [Concept, Preferred]
->     
->          Cardiomegaly [Term, Preferred]
->          
->          Enlarged Heart [Term]
->          
->          Heart Enlargement [Term]
->          
->     Cardiac Hypertrophy [Concept, Narrower]
->     
->          Cardiac Hypertrophy [Term, Preferred]
->          
->          Heart Hypertrophy [Term]
->
+```
+ Cardiomegaly [Descriptor]
+ 
+     Cardiomegaly [Concept, Preferred]
+     
+          Cardiomegaly [Term, Preferred]
+          
+          Enlarged Heart [Term]
+          
+          Heart Enlargement [Term]
+          
+     Cardiac Hypertrophy [Concept, Narrower]
+     
+          Cardiac Hypertrophy [Term, Preferred]
+          
+          Heart Hypertrophy [Term]
+```
    
 ## MeSH Updates
 New concepts are constantly emerging, old concepts are in a state of flux, and terminology and usage are modified accordingly. To accommodate these changes, descriptors must be added to, changed, or deleted from MeSH with adjustments in the related hierarchies,
