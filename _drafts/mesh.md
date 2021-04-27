@@ -82,12 +82,19 @@ Each Concept has a Preferred Term, which is also said to be the name of the Conc
 Example:
 >
 > Cardiomegaly [Descriptor]
+> 
 >     Cardiomegaly [Concept, Preferred]
+>     
 >          Cardiomegaly [Term, Preferred]
+>          
 >          Enlarged Heart [Term]
+>          
 >          Heart Enlargement [Term]
+>          
 >     Cardiac Hypertrophy [Concept, Narrower]
+>     
 >          Cardiac Hypertrophy [Term, Preferred]
+>          
 >          Heart Hypertrophy [Term]
 >
    
@@ -99,10 +106,10 @@ Generally, only Supplementary Concept Records (SCRs) are regularly modified but 
 
 ## MeSH and Semantic Technologies
 MeSH RDF is a linked data representation of the MeSH biomedical vocabulary. It is produced by the US NLM, including:
-1. a downloadable file in RDF N-Triples format, 
-2. a SPARQL query editor (web interface), 
-3. a SPARQL endpoint (API), 
-4. and a RESTful interface for retrieving MeSH data.
+* a downloadable file in RDF N-Triples format, 
+* a SPARQL query editor (web interface), 
+* a SPARQL endpoint (API), 
+* and a RESTful interface for retrieving MeSH data.
 The RDF downloadable file (item 1) allows storing the MeSH vocabulary on an internal platform. However, the daily updates detailed in Section 1.4 implies such a platform requires ontology/taxonomy management capabilities to automate the version control and automatic ingestion of changes processes. On the other side, SPARQL and RESTful API endpoints allow getting access to the latest vocabulary version stored and managed by US NLM.
 
 ## MeSH and NLP
