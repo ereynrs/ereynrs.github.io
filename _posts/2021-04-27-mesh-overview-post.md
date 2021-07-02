@@ -121,7 +121,7 @@ MeSH RDF is a linked data representation of the MeSH biomedical vocabulary. It i
 The RDF downloadable file (item 1) allows storing the MeSH vocabulary on an internal platform. However, the daily updates detailed in Section 1.4 implies such a platform requires ontology/taxonomy management capabilities to automate the version control and automatic ingestion of changes processes. On the other side, SPARQL and RESTful API endpoints allow getting access to the latest vocabulary version stored and managed by US NLM.
 
 ## MeSH and NLP
-There are two ways the GIHK NLP pipeline can leverage the MeSH vocabulary:
+There are two ways an NLP pipeline can leverage the MeSH vocabulary:
 ### For information enrichment
 Performing information enrichment on the free text labels identified as entities of interest by the NER pipeline.
 * *Step 1.* NER pipeline identifies the entities of interest.
