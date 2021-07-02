@@ -5,6 +5,9 @@ title:  MeSH overview
 
 # Medical Subject Headings (MeSH) 
 
+## Source
+[MeSH Home](https://www.nlm.nih.gov/mesh/meshhome.html)
+
 ## Summary
 * The Medical Subject Headings (MeSH) thesaurus is a controlled and hierarchically-organized vocabulary. It is used for indexing, cataloging, and searching for biomedical and health-related information.
 * MeSH can be used for information enrichment of the free text labels identified as entities of interest by the NER pipeline.
