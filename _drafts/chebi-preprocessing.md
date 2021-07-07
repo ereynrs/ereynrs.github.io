@@ -149,8 +149,7 @@ where { ?leaf rdf:type owl:Class
 ````
 
 ## Tools
-ROBOT
-
+[ROBOT](http://robot.obolibrary.org/) is the tool used in this process. ROBOT is a tool for working with Open Biomedical Ontologies. It can be used as a command-line tool or as a library for any language on the Java Virtual Machine.
 
 ## Splitting process
 ### Step 1. Serialize the OWL ontology as a set of triples
