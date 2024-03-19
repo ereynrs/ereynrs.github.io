@@ -7,9 +7,9 @@ permalink:           pretty
 # Setup
 title:               Emiliano Reynares' blog.
 tagline:             Boosting quality of data in healthcare and life sciences.
-url:                 https://ereynrs.github.io/
+url:                 https://ereynrs.github.io
 paginate:            1
-baseurl:             https://ereynrs.github.io/
+baseurl:             https://ereynrs.github.io
 
 # Assets
 #
