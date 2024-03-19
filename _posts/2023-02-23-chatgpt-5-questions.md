@@ -2,8 +2,6 @@
 layout: post
 title: ChatGPT for dummies in 5 questions (and answers)
 ---
-# 
-
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 
 Let’s be honest. You read and hear about ChatGPT all over the place. But there are at least 5 ChatGPT-related questions you avoid asking because you still want to look tech-savvy. No need to ask anymore, because 👇 are the answers.

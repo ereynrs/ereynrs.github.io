@@ -24,7 +24,7 @@ Beyond the evident duty of improving the guidelines, there is a plan to share ag
 
 On the technical side, they also want to better understand and ***increase the control of the fine-tuning process by including rule-based awards and Constitutional AI advances***.
 
-<img src="../assets/openai-training-process.png" alt="Current and future potential ChatGPT training process. (Image source: OpenAI Blog)" title="Current and future potential ChatGPT training process. (Image source: OpenAI Blog)"/>
+<img src="../_assets/openai-training-process.png" alt="Current and future potential ChatGPT training process. (Image source: OpenAI Blog)" title="Current and future potential ChatGPT training process. (Image source: OpenAI Blog)"/>
 
 ## As many ChatGPT tastes as users
 OpenAI claims to be on a mission ***to ensure highly autonomous systems that outperform humans at most economically valuable work benefits all of humanity***.
