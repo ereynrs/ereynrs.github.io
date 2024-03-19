@@ -8,7 +8,7 @@ permalink:           pretty
 title:               Emiliano Reynares' blog
 tagline:             
 url:                 https://ereynrs.github.io
-paginate:            1
+paginate:            1000
 baseurl:             https://ereynrs.github.io
 
 # Assets
