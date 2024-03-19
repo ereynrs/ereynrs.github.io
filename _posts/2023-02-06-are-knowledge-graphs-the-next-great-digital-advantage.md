@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Takeaways from the HBR article depicting 4 action points to catch up with the leaders.
+title: Are Knowledge Graphs the Next Great Digital Advantage?
 ---
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 

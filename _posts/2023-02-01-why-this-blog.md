@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why this blog?
+title: Why This Blog?
 ---
 
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
