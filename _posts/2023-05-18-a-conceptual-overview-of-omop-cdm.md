@@ -96,7 +96,7 @@ To address the evolution of concepts the CDM also includes concept lifespan info
 
 Some vocabularies organize concepts into classes. Concept classes can represent vertical divisions or horizontal levels within hierarchical structures. While a single concept is designated as the standard for a given clinical event, non-standard and classification concepts are included in the Standardized Vocabularies because they are found in the source data - that’s why they are called Source Concepts-, and they can be used to perform hierarchical queries, respectively.
 
-<img src="../_assets/hierarchy_concepts.png" alt="Standard, non-standard, and classification concepts." width="100%">
+<img src="/_assets/hierarchy_concepts.png" alt="Standard, non-standard, and classification concepts." width="100%">
 <div class ="caption">
 Standard, non-standard source and classification concepts and their hierarchical relationships in the condition domain. SNOMED is used for most standard condition concepts (with some oncology-related concepts derived from ICDO3), MedDRA concepts are used for hierarchical classification concepts, and all other vocabularies contain non-standard or source concepts, which do not participate in the hierarchy. (Image source: The Book of OHDSI)
 </div>
@@ -136,15 +136,3 @@ A study where the researcher has no control over the intervention.
 * [Athena](http://athena.ohdsi.org/). The OHDSI standardized vocabularies lookup tool.
 
 ##### Visit my [LinkedIn Profile](https://www.linkedin.com/in/ereynrs/)
-
-
-
-
-
-
-
-
-
-
-
-
