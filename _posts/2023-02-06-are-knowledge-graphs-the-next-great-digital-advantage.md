@@ -1,5 +1,7 @@
-# Takeaways from the HBR article depicting 4 action points to catch up with the leaders.
-
+---
+layout: post
+title: Takeaways from the HBR article depicting 4 action points to catch up with the leaders.
+---
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 
 The future of business success is here, and it’s all about knowledge graphs. That’s the bold claim made by the authors of a recent Harvard Business Review [article](https://hbr.org/2022/05/the-next-great-digital-advantage), and after reading it, I couldn’t agree more. The world’s leading technology companies — think Amazon, Google, Facebook, and Netflix — are already using knowledge graphs to gain a competitive edge and increase their revenue.
