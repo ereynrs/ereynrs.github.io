@@ -1,0 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Emiliano Reynares' blog.
+tagline:             Boosting quality of data in healthcare and life sciences.
+url:                 https://ereynrs.github.io/
+paginate:            1
+baseurl:             https://ereynrs.github.io/
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Emiliano Reynares
+  url:               https://www.linkedin.com/in/ereynrs/
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
