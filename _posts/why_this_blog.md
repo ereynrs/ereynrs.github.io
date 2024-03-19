@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Why this blog?
-date: 2023-01-02
 ---
 
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/) on Feb 1, 2023*
