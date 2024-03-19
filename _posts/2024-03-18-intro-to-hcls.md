@@ -25,9 +25,6 @@ That's why I wrote this post on the Healthcare and Life Sciences (HCLS) industry
 ## The basics
 The HCLS industry is [a USD 8 trillion industry](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Finance/gx-rise-global-health-care.pdf) that accounts for [about 10% of the GDP](https://www.oecd.org/health/health-data.htm). It covers a wide range of products, services, and stakeholders. 
 
-In the first section of the post, I'll overview the healthcare and life sciences, and their interplay in the industry.
-
-## The basics
 Healthcare and life sciences terms are often used interchangeably, but they have some subtle differences. 
 
 __*Healthcare*__ refers to the provision and delivery of medical care to people who need it.
