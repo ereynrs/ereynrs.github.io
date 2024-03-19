@@ -3,7 +3,7 @@ layout: post
 title: Why this blog?
 ---
 
-*Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/) on Feb 1, 2023*
+*Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 
 Reading has always been essential to me, and writing has gradually become its ideal partner. However, I was frustrated trying different social media platforms, as the content fragmentation and platform lock-ins did not satisfy me. After trying a few, I abandoned them and started anew. It’s unsustainable and demotivating.
 
