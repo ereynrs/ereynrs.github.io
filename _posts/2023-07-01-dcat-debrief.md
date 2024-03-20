@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DCAT Debrief
+title: A Data Catalog Vocabulary (DCAT) Debrief
 ---
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 

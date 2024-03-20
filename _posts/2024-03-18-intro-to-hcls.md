@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Health Care and Life Sciences
+title: Basics of Health Care and Life Sciences Industry
 ---
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 
@@ -10,7 +10,7 @@ So I moved to a [pharma company](https://www.boehringer-ingelheim.com/) as a kno
 
 It was a challenging but rewarding experience. I learned a lot about the pharma, healthcare and life sciences industries, theirs problems and opportunities. I also realized how important it is to have a solid understanding of the domain, especially if you want to apply AI-related techniques to data.
 
-This year, I joined a [leading global provider](https://www.iqvia.com/) of advanced analytics, technology solutions, and clinical research services to the healthcare and life sciences industry, with the role of ontology, knowledge graph and AI expert. I'm excited to work on cutting-edge projects that can make a difference in people's lives.
+Last year, I joined a [leading global provider](https://www.iqvia.com/) of advanced analytics, technology solutions, and clinical research services to the healthcare and life sciences industry, with the role of ontology, knowledge graph and AI expert. I'm excited to work on cutting-edge projects that can make a difference in people's lives.
 
 But I'm not done learning. I'm always looking for new ways to expand my knowledge and skills. And I want to share my learnings with you, since it could be helpful for other professionals facing similar challenges.
 
