@@ -54,7 +54,7 @@ DCAT is based on seven classes:
 * A _DatasetSeries_ is a dataset that represents a collection of datasets that are published separately, but share some characteristics that group them.
 * A _CatalogRecord_ represents a metadata record in the catalog, primarily concerning provenance information - the registration information, such as who added the record and when-. Its use is considered optional.
 
-<img src="/_assets/dcat_model.svg" alt="DCAT model." width="100%">
+<img src="/assets/dcat_model.svg" alt="DCAT model." width="100%">
 <div class ="caption">
 Overview of the DCAT model, showing the classes of resources that can be members of a Catalog and the relationships between them. Except where specifically indicated, DCAT does not provide cardinality constraints. (Image source: W3C DCAT WD)
 </div>
@@ -77,7 +77,7 @@ The typical approach to address such a challenge is to introduce additional reso
 
 The DCAT vocabulary incorporates additional forms to fill gaps in qualified terms, drawing from the [Provenance Ontology](https://www.w3.org/TR/prov-o/). The figure below provides a summary of these additional forms. You can find specific examples illustrating the usage of these qualified relationships [here](https://www.w3.org/TR/vocab-dcat-3/#qualified-forms).
 
-<img src="/_assets/qualified_relationships.svg" alt="DCAT qualified relationships." width="100%">
+<img src="/assets/qualified_relationships.svg" alt="DCAT qualified relationships." width="100%">
 <div class ="caption">
 Qualified relationships support an extensible set of roles relating resources to agents or to other resources (Source: W3C DCAT WD)
 </div>

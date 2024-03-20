@@ -36,7 +36,7 @@ The GPT architecture is a stack of transformer layers. It’s pre-trained on mas
 
 Below you see a sketch of the training process.
 
-<center><img src="/_assets/chatgpt-training-process.png" width="500px" alt="ChatGPT training process. Image source: OpenAI blog" title="ChatGPT training process. Image source: OpenAI blog"/></center>
+<center><img src="/assets/chatgpt-training-process.png" width="500px" alt="ChatGPT training process. Image source: OpenAI blog" title="ChatGPT training process. Image source: OpenAI blog"/></center>
 
 Bonus point: in [this blog post](https://openai.com/blog/how-should-ai-systems-behave/), OpenAI details the training process, and how they plan to improve it. I’ve also written [a post](https://medium.com/@ereynrs/how-openai-plans-to-improve-chatgpt-behavior-9f562a74b311) highlighting the takeaways.
 
