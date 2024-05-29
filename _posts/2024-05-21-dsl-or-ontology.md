@@ -25,3 +25,5 @@ On the other hand, domain ontologies formalize the meaning of terms within a spe
 In summary, DSLs empower developers, while domain ontologies facilitate knowledge sharing, reasoning, and interoperability across domains. 
 
 Both are essential tools for domain-specific success!
+
+##### Visit my [LinkedIn Profile](https://www.linkedin.com/in/ereynrs/)
