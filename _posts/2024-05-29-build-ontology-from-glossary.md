@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Build your Domain Ontology out of your Business Glossary.
+title: Build your Domain Ontology out of your Business Glossary
 ---
 *Written by [Emiliano Reynares](https://www.linkedin.com/in/ereynrs/)*
 
